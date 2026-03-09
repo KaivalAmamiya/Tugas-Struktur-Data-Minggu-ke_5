@@ -3,32 +3,22 @@
 Repository ini berisi implementasi beberapa algoritma dasar dalam Python, meliputi Searching, Sorting, dan Array Analysis.
 Setiap soal dilengkapi dengan deskripsi soal, kode program, contoh penggunaan, dan output hasil program.
 
-📂 Daftar Soal
+# 📂 Daftar Soal
+1. Modified Binary Search
+2. Bubble Sort dengan Analisis Langkah
+3. Hybrid Sort
+4. Merge Tiga Sorted Lists
+5. Inversions Counter
 
-Modified Binary Search
-
-Bubble Sort dengan Analisis Langkah
-
-Hybrid Sort
-
-Merge Tiga Sorted Lists
-
-Inversions Counter
-
-1️⃣ Modified Binary Search
-📝 Soal
-
+# 1️⃣ Modified Binary Search
+## 📝 Soal
 Buatlah program menggunakan Binary Search yang dimodifikasi untuk menghitung jumlah kemunculan suatu nilai dalam list yang sudah terurut.
-
 Program harus dapat:
+- menemukan kemunculan pertama
+- menemukan kemunculan terakhir
+- menghitung total kemunculan nilai tersebut.
 
-menemukan kemunculan pertama
-
-menemukan kemunculan terakhir
-
-menghitung total kemunculan nilai tersebut.
-
-💻 Kode Program
+## 💻 Kode Program
 def find_first(data, x):
     left = 0
     right = len(data) - 1
